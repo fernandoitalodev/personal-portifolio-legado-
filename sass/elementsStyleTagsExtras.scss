@@ -1,0 +1,40 @@
+*::after, *::before{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+$font-tags:'Inconsolata', monospace;
+$font-maior-menor-hover:rgb(41, 147, 247);
+p::before, p::after,h1::before, h1::after{
+    content: '';
+    white-space: nowrap;
+       user-select: none;
+        color:#dfd7d794;
+        font-family:$font-tags;
+        font-size:0.8rem;
+        font-weight:300;
+        padding:5px 5px;
+        flex-wrap: nowrap;
+        align-self: center;
+        
+      
+       
+&:hover{
+    content: '';
+ color:$font-maior-menor-hover;
+ 
+}
+}p::before{
+    content: '<p>';
+}
+
+
+p::after{
+    content: '</p>';
+}
+
+h1::before{
+   content:'<h1>';
+}h1::after{
+    content:'</h1>';
+ }
