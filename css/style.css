@@ -248,8 +248,8 @@ body {
   transition: 0.3;
 }
 .page2 .projects-area .projects .project-item .img-project {
-  aspect-ratio: 16/9;
   height: 250px;
+  width: 500px;
   border-radius: 10px;
   transition: 0.2s;
 }
@@ -380,6 +380,7 @@ body {
 }
 .footer .contact-me .social-medias-footer .btn {
   padding: 1em 2em;
+  margin-bottom: 0.5em;
   font-size: 1em;
   background-color: transparent;
   border: 2px solid white;
@@ -506,7 +507,7 @@ body {
     font-size: 0.7em;
   }
   .footer .social-medias-footer .btn {
-    margin: 0.5em;
+    margin: 1em;
   }
 }
 @media (min-width: 820px) and (max-width: 1024px) {

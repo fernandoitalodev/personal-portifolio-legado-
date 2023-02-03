@@ -189,8 +189,9 @@ body {
           }
         }
         .img-project {
-          aspect-ratio: 16/9;
+          
           height: 250px;
+          width:500px;
           border-radius: 10px;
           transition: 0.2s;
         }
@@ -340,6 +341,7 @@ body {
       }
       .btn {
         padding: 1em 2em;
+        margin-bottom:0.5em;
         font-size: 1em;
         background-color: transparent;
         border: 2px solid white;
@@ -508,7 +510,7 @@ flex-direction: column;
       
       .btn {
         
-        margin:0.5em;
+        margin:1em;
         
       }
      
